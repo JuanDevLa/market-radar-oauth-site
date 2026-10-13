@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>Market Radar — Política de privacidad</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172338;background:#f4f7fb}
+    *{box-sizing:border-box}body{margin:0}.wrap{max-width:780px;margin:5rem auto 3rem;padding:0 1.3rem}
+    .card{padding:2.5rem;background:white;border:1px solid #dee6f0;border-radius:20px;box-shadow:0 12px 30px #14243c0d}
+    h1{font-size:clamp(1.8rem,5vw,2.5rem)}h2{font-size:1.13rem;margin:2rem 0 .4rem}
+    p,li{line-height:1.7;color:#41516a}a{color:#1756a9;text-decoration:underline;text-underline-offset:3px}
+    .small{font-size:.86rem;color:#5d6d82}footer{padding:1.25rem 0;color:#5d6d82;font-size:.85rem;text-align:center}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card">
+      <a href="index.html">← Volver a Market Radar</a>
+      <h1>Política de privacidad</h1>
+      <p class="small">Actualizada: octubre de 2026. Esta página describe la integración personal de Market Radar con Google Drive.</p>
+      <h2>Finalidad</h2>
+      <p>Market Radar organiza información financiera y produce reportes de investigación para el propietario de la aplicación. Se utiliza Google Drive para almacenar y actualizar reportes propios, como <code>latest.md</code> y <code>latest.json</code>, dentro de una carpeta designada.</p>
+      <h2>Datos y permisos de Google</h2>
+      <p>La autorización OAuth permite a la herramienta de sincronización rclone acceder a Google Drive en nombre del propietario. Según el alcance autorizado, el permiso técnico puede permitir acceso a otros archivos de la cuenta; el uso previsto del proyecto se limita a los reportes y la carpeta configurada para Market Radar. La aplicación no solicita acceso a Gmail, contactos ni calendario para este flujo.</p>
+      <h2>Uso y almacenamiento</h2>
+      <p>Los reportes se generan en una máquina privada de Oracle Cloud y se sincronizan con la cuenta de Google Drive del propietario. El servidor guarda credenciales OAuth necesarias para renovar el acceso y puede conservar registros técnicos de funcionamiento. Los archivos permanecen en la cuenta de Google del propietario hasta que éste los elimine o cambie la configuración.</p>
+      <h2>Compartición de información</h2>
+      <p>El proyecto no vende información de Google Drive ni usa estos datos para anuncios. Se emplean Google Drive y la infraestructura del servidor para prestar la funcionalidad indicada. Esta página de GitHub Pages no publica el contenido de los reportes privados ni recibe sus credenciales.</p>
+      <h2>Control y revocación</h2>
+      <p>El propietario puede eliminar los reportes desde Google Drive, desactivar la sincronización y revocar el acceso de la aplicación en <a href="https://myaccount.google.com/connections">Conexiones de terceros de su Cuenta de Google</a>. También debe eliminar del servidor las credenciales OAuth almacenadas cuando deje de usar la integración.</p>
+      <h2>Contacto</h2>
+      <p>Para consultas sobre privacidad, utiliza el correo de soporte indicado en la pantalla de consentimiento de Market Radar.</p>
+      <p class="small"><strong>Nota:</strong> revisa y actualiza esta política si se modifica el flujo de datos, los permisos OAuth o el almacenamiento.</p>
+    </article>
+    <footer>Market Radar · Uso personal</footer>
+  </main>
+</body>
+</html>
